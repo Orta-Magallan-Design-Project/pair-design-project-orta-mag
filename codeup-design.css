@@ -1,0 +1,22 @@
+* {
+    background-color: #e6e6e6;
+    text-align: center;
+}
+
+.logo-image{
+    width: 105px;
+    height: 105px;
+    justify-content: center;
+}
+.codeup-header {
+    font-size: xxx-large;
+    margin: 0.5em 0;
+}
+
+.dot-design {
+    height: 105px;
+    width: 105px;
+    background-color: #e6563b;
+    border-radius: 50%;
+    border-color: #f0f0f0;
+}
