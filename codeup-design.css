@@ -17,6 +17,23 @@
     height: 105px;
     width: 105px;
     background-color: #e6563b;
-    border-radius: 50%;
-    border-color: #f0f0f0;
+    /*border-radius: 100%;*/
+    /*border-color: #f0f0f0;*/
+}
+/*.border{*/
+/*    border-width: 1em;*/
+/*}*/
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p{
+
 }
