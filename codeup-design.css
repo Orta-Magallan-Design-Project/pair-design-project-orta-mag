@@ -15,8 +15,103 @@
 
 .dot-design {
     height: 105px;
-    width: 105px;
+    width: auto;
+    background-color: #f0f0f0;
+    border-radius: 100%;
+    display: table;
+    margin: 20px;
+    /*border-color: #f0f0f0;*/
+    border: 5px white solid;
+    padding: 0;
+}
+/*.border{*/
+/*    border-width: 1em;*/
+/*    color: #f0f0f0;*/
+/*}*/
+
+/*.row {*/
+/*    display: -ms-flexbox;*/
+/*    display: flex;*/
+/*    -ms-flex-wrap: wrap;*/
+/*    margin-right: -15px;*/
+/*    margin-left: -15px;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: space-evenly;*/
+/*}*/
+
+.dot-design p{
+    vertical-align: middle;
+    display: table-cell;
     background-color: #e6563b;
+    border-radius: 100%;
+    color: #e6e6e6;
+    font-weight: bold;
+    border: #f0f0f0;
+}
+
+.dot-develop{
+    height: 105px;
+    width: auto;
+    background-color: #f0f0f0;
     border-radius: 50%;
-    border-color: #f0f0f0;
+    display: table;
+    margin: 20px;
+    border: 5px white solid;
+    padding: 0;
+}
+
+/*.border-primary{*/
+/*    border-radius: 100%;*/
+/*}*/
+
+.dot-develop p{
+    vertical-align: middle;
+    display: table-cell;
+    background-color: #dea03d;
+    border-radius: 100%;
+    color: #e6e6e6;
+    font-weight: bold;
+    border: #e6e6e6;
+}
+
+.dot-support{
+    height: 105px;
+    width: auto;
+    background-color: #f0f0f0;
+    border-radius: 100%;
+    display: table;
+    margin: 20px;
+    border: 5px solid white;
+    padding: 0;
+}
+
+.dot-support p{
+    vertical-align: middle;
+    display: table-cell;
+    background-color: #7cb06c;
+    border-radius: 100%;
+    color: #e6e6e6;
+    font-weight: bold;
+    border: #e6e6e6;
+}
+
+.dot-host{
+    height: 105px;
+    width: auto;
+    background-color: #f0f0f0;
+    border-radius: 100%;
+    display: table;
+    margin: 20px;
+    border: 5px solid white;
+    padding: 0;
+}
+
+.dot-host p{
+    vertical-align: middle;
+    display: table-cell;
+    background-color: #00aba9;
+    border-radius: 100%;
+    color: #e6e6e6;
+    font-weight: bold;
+    border: #e6e6e6;
 }
