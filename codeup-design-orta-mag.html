@@ -12,16 +12,28 @@
 </head>
 <body>
 <div class="container-fluid">
-    <div class="row">
-        <img class="logo-image col-xs-12 mx-auto"  src="images/logo.png">
-        <div class="codeup-header col-xs-12 mx-auto">codeup design</div>
-        <div class="col-xs-3 offset-1">Services</div>
-        <div class="col-xs-3 offset-1">Work</div>
-        <div class="col-xs-3 offset-1">Blog</div>
-        <div class="col-xs-3 offset-1">Contact</div>
+    <div class="row position-relative">
+<!--        <div class="small-display d-none d-sm-block">-->
+            <div class="col-sm-1 offset-1 d-none d-sm-block">Services 1</div>
+            <div class="col-sm-1 offset-1 d-none d-sm-block">Work 1</div>
+            <img class="logo-image position-absolute"  src="images/logo.png">
+            <div class="col-sm-1 offset-1 d-none d-sm-block">Blog 1</div>
+            <div class="col-sm-1 offset-1 d-none d-sm-block">Contact 1</div>
+            <div class="codeup-header col-sm-12 mx-auto">codeup design</div>
+<!--    </div>-->
+        <div class="xs-display d-sm-none">
+            <img class="logo-image col-xs-12 mx-auto d-sm-none"  src="images/logo.png">
+            <div class="codeup-header col-xs-12 mx-auto">codeup design</div>
+            <div class="col-3 d-sm-none">Services</div>
+            <div class="col-3 d-sm-none">Work</div>
+            <div class="col-3 d-sm-none">Blog</div>
+            <div class="col-3 d-sm-none">Contact</div>
+        </div>
         <h2 class="font-weight-bold">VISUAL DESIGN & WEB DEVELOPMENT</h2>
-        <h3 class="font-weight-bold mb-0">FROM PARK CITY, UTAH</h3>
-</div>
+        <div class="d-sm-flex justify-content-center w-100">
+            <h3 class="font-weight-bold w-100">FROM PARK CITY, UTAH</h3>
+        </div>
+    </div>
 </div>
 <div class="container">
     <div class="row justify-content-center">

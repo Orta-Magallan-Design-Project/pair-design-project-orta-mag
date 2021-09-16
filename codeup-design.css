@@ -2,6 +2,9 @@
     background-color: #e6e6e6;
     text-align: center;
 }
+/*.jumbotron{*/
+/*    background-image: url("images/logo.png");*/
+/*}*/
 
 .logo-image{
     margin-top: 25px;
@@ -171,4 +174,14 @@ h3 {
 
 .mt-4 {
     margin-bottom: 3em;
+}
+
+@media screen and(min-width: 576px) {
+    .codeup-header{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-items: center;
+    }
 }
