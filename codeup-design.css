@@ -11,6 +11,7 @@
     width: 105px;
     height: 105px;
     justify-content: center;
+    z-index: 1000;
 }
 .codeup-header {
     font-size: xxx-large;
@@ -184,4 +185,9 @@ h3 {
         align-content: center;
         align-items: center;
     }
+}
+
+
+.font-size{
+    font-size: 14px !important;
 }
