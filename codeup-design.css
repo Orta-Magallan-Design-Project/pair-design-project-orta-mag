@@ -1,21 +1,33 @@
-* {
-    background-color: #e6e6e6;
+*{
     text-align: center;
+}
+
+body {
+    background-color: #e6e6e6;
 }
 /*.jumbotron{*/
 /*    background-image: url("images/logo.png");*/
 /*}*/
 
+.logo-block{
+    background-color: white;
+    height: 65px;
+    margin: 20px 0;
+    align-items: center;
+}
+
 .logo-image{
-    margin-top: 25px;
+    /*margin-top: 25px;*/
     width: 105px;
     height: 105px;
-    justify-content: center;
-    z-index: 1000;
+    /*justify-content: center;*/
+    /*z-index: 1000;*/
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
 .codeup-header {
     font-size: xxx-large;
-    margin: 0.15em 0;
+    margin: .15em 0;
 }
 
 h2{
