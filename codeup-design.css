@@ -235,7 +235,13 @@ h5 {
         transform: translate(-325%, 5%);
     }
     .medium-screen {
-        margin-left: 0;
+
+    }
+    .codeup-header {
+        font-size: 40px;
+        margin: -5px auto 0 165px;
+        font-family: 'Abel', sans-serif;
+
     }
 }
 
