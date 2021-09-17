@@ -197,6 +197,21 @@ h3 {
         align-content: center;
         align-items: center;
     }
+    .logo-block{
+        background-color: white;
+        height: 65px;
+        margin: 20px 0;
+        align-items: center;
+    }
+    .logo-image{
+        /*margin-top: 25px;*/
+        width: 105px;
+        height: 105px;
+        /*justify-content: center;*/
+        /*z-index: 1000;*/
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
 }
 
 
