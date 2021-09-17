@@ -229,7 +229,7 @@ h5 {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 991px){
     .logo-image {
         left: 50%;
         transform: translate(-325%, 5%);
@@ -243,6 +243,26 @@ h5 {
         font-family: 'Abel', sans-serif;
 
     }
+    .selected-work{
+        text-align: left;
+        margin-left: -150px;
+    }
+    .the-last{
+        margin-left: -30px;
+    }
+
+    p {
+        font-weight: bold;
+    }
+
+    /*.card-horizontal {*/
+    /*       display: flex;*/
+    /*       flex: 1 1 auto;*/
+    /*   }*/
+}
+
+@media screen and (min-width: 992px) {
+
 }
 
 
